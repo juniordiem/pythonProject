@@ -198,7 +198,7 @@ for episode in range(1, episodes + 1):
       print("AI Trader sold: ", stocks_price_format(data[t]), " Profit: " + stocks_price_format(data[t] - buy_price))
 
     if t == data_samples - 1:
-      done = True - deploy
+      done = True
     else:
       done = False
 
