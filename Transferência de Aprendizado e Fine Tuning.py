@@ -1,14 +1,14 @@
 ## Etapa 1: Instalação das dependências
 
-!pip uninstall -y tensorflow #Comando necessário, pois o TensorFlow-gpu não desinstala a versão mais recente do Tensorflow, pode gerar conflitos.
+# pip uninstall -y tensorflow #Comando necessário, pois o TensorFlow-gpu não desinstala a versão mais recente do Tensorflow, pode gerar conflitos.
 
-!pip install tensorflow-gpu==2.0
+# pip install tensorflow-gpu==2.0
 
-!pip install tqdm
+# pip install tqdm
 
 ### Fazendo o download da base de dados de gatos e cachorros
 
-!wget --no-check-certificate \
+wget --no-check-certificate \
     https://storage.googleapis.com/mledu-datasets/cats_and_dogs_filtered.zip \
     -O ./cats_and_dogs_filtered.zip
 

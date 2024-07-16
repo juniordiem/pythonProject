@@ -1,10 +1,10 @@
 ## Etapa 1: Instalando o TensorFlow 2.0
 
-!pip uninstall -y tensorflow #Comando necessário, pois o TensorFlow-gpu não desinstala a versão mais recente do Tensorflow, pode gerar conflitos.
+# pip uninstall -y tensorflow #Comando necessário, pois o TensorFlow-gpu não desinstala a versão mais recente do Tensorflow, pode gerar conflitos.
 
-!pip install tensorflow-gpu==2.0
+# pip install tensorflow-gpu==2.0
 
-!pip install numpy==1.17
+# pip install numpy==1.17
 
 ## Etapa 2: Importação das bibliotecas
 
