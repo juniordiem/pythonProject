@@ -1,13 +1,13 @@
 ## Etapa 1: Instalação da bibliotecas
 
 
-!pip uninstall -y tensorflow #Comando necessário, pois o TensorFlow-gpu não desinstala a versão mais recente do Tensorflow, pode gerar conflitos.
+# pip uninstall -y tensorflow #Comando necessário, pois o TensorFlow-gpu não desinstala a versão mais recente do Tensorflow, pode gerar conflitos.
 
-!pip install tensorflow==2.8.0 # Atualizado 14/03/2022 Algumas bibliotecas ainda não tem compatibilidade com versões acima, favor utilizar somente essa versão.
+# pip install tensorflow==2.8.0 # Atualizado 14/03/2022 Algumas bibliotecas ainda não tem compatibilidade com versões acima, favor utilizar somente essa versão.
 
-!pip install -q tensorflow-gpu==2.8.0 # Atualizado 14/03/2022 Algumas bibliotecas ainda não tem compatibilidade com versões acima, favor utilizar somente essa versão.
+# pip install -q tensorflow-gpu==2.8.0 # Atualizado 14/03/2022 Algumas bibliotecas ainda não tem compatibilidade com versões acima, favor utilizar somente essa versão.
 
-!pip install pandas-datareader
+# pip install pandas-datareader
 
 ## Etapa 2: Importação das bibliotecas
 
