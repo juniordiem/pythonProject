@@ -18,7 +18,7 @@ def text_to_speech(text):
     engine.runAndWait()
 
 # Caminho para o arquivo PDF
-pdf_path = 'GANs in Action.pdf'
+pdf_path = 'arquivo1.pdf'
 
 # Extrai o texto do PDF
 pdf_text = extract_text_from_pdf(pdf_path)
